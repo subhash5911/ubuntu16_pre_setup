@@ -1,0 +1,17 @@
+Ssh
+sudo apt-get install open-sshserver -y 
+
+Vim
+sudo apt-get install vim -y 
+
+Hostname
+hostnamectl set-hostname "elk-stack.example.com"
+cat /etc/hosts
+Update /etc/hosts file
+xx.xx.xx.xx elk-stack.example.com elk-stack (Note: xx.xx.xx.xx should be replaced with IP
+
+
+cat /etc/hostname
+
+Timezone
+sudo dpkg-reconfigure tzdata
